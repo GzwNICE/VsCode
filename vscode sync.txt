@@ -1,0 +1,31 @@
+一、VsCode 插件同步
+
+1、Settings Sync是vscode中同步设置和安装插件的小工具，在扩展商店中搜索并安装它 
+
+2、登陆Github>Your profile> settings>Developer settings>personal access tokens>generate new token，输入名称，勾选Gist，提交 
+
+3、保存Github Access Token 
+
+4、打开vscode，Ctrl+Shift+P打开命令框，输入sync，找到update/upload settings，输入Token，上传成功后会返回Gist ID，保存此Gist ID. 
+
+5、若需在其他机器上DownLoad插件的话，同样，Ctrl+Shift+P打开命令框，输入sync，找到Download settings，会跳转到Github的Token编辑界面，点Edit，regenerate token，保存新生成的token，在vscode命令框中输入此Token，回车，再输入之前的Gist ID，即可同步插件和设置。
+
+
+GitHub Personal access tokens : ( 384f8b5615a9efad152c10a2218e946cd32ac9c9 )
+
+Sync : 上传完成. GIST ID : ( 165d26135c22aed506e8096e1adda554 ).请在其他计算机上复制并使用此ID以下载设置.
+
+
+二、VsCode 代码截图工具
+
+1.Polacode 是 VsCode 的扩展，可让你快速创建精彩的代码截图，它将所有的样式和主题保留在同一个地方
+
+2.打开扩展窗口并搜索 Polacode，然后点击安装
+
+3.现在打开你想要截图的文件。 选择你想要的代码并复制它。
+
+4.现在转到 View> Command Palette，（ctrl + shift + p）然后在框中输入> polacode 并选择 Polacode 选项。 
+
+5.它将创建一个单独的水平窗口 , 点击窗口并粘贴代码。 
+
+6.会看到像摄像头一样的图标，点击这个图标并保存图片。
